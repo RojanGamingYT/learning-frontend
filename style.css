@@ -2,6 +2,8 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    height: auto;
+    width: auto;
   }
   
   .project {
@@ -13,4 +15,3 @@
   .project img {
     width: 100%;
   }
-  
