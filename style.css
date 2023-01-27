@@ -1,0 +1,16 @@
+.project-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .project {
+    width: 30%;
+    margin: 1%;
+    text-align: center;
+  }
+  
+  .project img {
+    width: 100%;
+  }
+  
