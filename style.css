@@ -19,14 +19,3 @@
     background-color: #ADD8E6;
   }
   
-  .body {
-    background: linear-gradient(to bottom, #F08080, #ADD8E6);
-  }
-  
-
-  .body {
-    background-image: url('bg-image.jpg');
-    background-size: cover;
-    background-position: center;
-  }
-  
