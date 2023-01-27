@@ -49,3 +49,18 @@
   font-size: 16px;
   cursor: pointer;
 }
+.tweet-actions {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 10px;
+}
+
+.like-button, .retweet-button {
+  background-color: #1da1f2;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+  margin-left: 10px;
+}
