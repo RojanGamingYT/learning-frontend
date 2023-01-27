@@ -5,16 +5,28 @@
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
-    <div id="header">
+    <header>
       <h1>Twitter Clone</h1>
-    </div>
+      <nav>
+        <a href="#">Home</a>
+        <a href="#">Notifications</a>
+        <a href="#">Messages</a>
+      </nav>
+    </header>
     <div id="content">
       <form id="tweet-form">
-        <textarea id="tweet-input"></textarea>
-        <button type="submit">Tweet</button>
+        <textarea id="tweet-input" placeholder="What's happening?"></textarea>
+        <div id="tweet-form-footer">
+          <label for="image-upload">
+            <i class="fas fa-image"></i>
+          </label>
+          <input type="file" id="image-upload" style="display: none;">
+          <button type="submit">Tweet</button>
+        </div>
       </form>
       <div id="tweet-list"></div>
     </div>
     <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/yourcode.js"></script>
   </body>
 </html>

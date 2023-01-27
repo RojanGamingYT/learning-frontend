@@ -1,21 +1,30 @@
-#header {
-    background-color: #00aced;
-    color: white;
-    padding: 20px;
-  }
-  
-  #content {
-    max-width: 600px;
-    margin: 0 auto;
-  }
-  
-  #tweet-form {
-    margin-bottom: 20px;
-  }
-  
-  #tweet-input {
-    width: 100%;
-    height: 100px;
-    padding: 10px;
-  }
-  
+/* Add some spacing and a border to the tweet list */
+#tweet-list {
+  padding: 20px;
+  border: 1px solid #ddd;
+}
+
+/* Add a font and background color to the tweets */
+#tweet-list div {
+  font-size: 1.2em;
+  background-color: #f5f8fa;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+/* Add a hover effect to the tweets */
+#tweet-list div:hover {
+  background-color: #e1e8ed;
+}
+
+/* Add a border to the text area and a font size */
+#tweet-input {
+  border: 1px solid #ccc;
+  font-size: 1.2em;
+}
+
+/* Add a hover effect to the button */
+button:hover {
+  background-color: #00aced;
+  color: white;
+}
