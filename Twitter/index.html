@@ -1,32 +1,29 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Twitter Clone</title>
+<html lang="en">
+<head>
     <link rel="stylesheet" href="styles.css">
-  </head>
-  <body>
-    <header>
-      <h1>Twitter Clone</h1>
-      <nav>
-        <a href="#">Home</a>
-        <a href="#">Notifications</a>
-        <a href="#">Messages</a>
-      </nav>
-    </header>
-    <div id="content">
-      <form id="tweet-form">
-        <textarea id="tweet-input" placeholder="What's happening?"></textarea>
-        <div id="tweet-form-footer">
-          <label for="image-upload">
-            <i class="fas fa-image"></i>
-          </label>
-          <input type="file" id="image-upload" style="display: none;">
-          <button type="submit">Tweet</button>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div id="app">
+        <div class="header">
+          <h1>Twitter Clone</h1>
         </div>
-      </form>
-      <div id="tweet-list"></div>
-    </div>
-    <script src="script.js"></script>
-    <script src="https://kit.fontawesome.com/yourcode.js"></script>
-  </body>
+        <div class="main-content">
+          <div class="tweet-form">
+            <textarea id="tweet-input" placeholder="What's happening?"></textarea>
+            <button id="tweet-button">Tweet</button>
+          </div>
+          <div id="tweet-container"></div>
+        </div>
+      </div>
+      
+      
+
+      <script src="script.js"></script>
+</body>
 </html>
